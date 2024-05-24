@@ -1,21 +1,27 @@
-html {
-  height: 100%;
-  width: 100%;
+html,body {
+  height: 98%;
+  width: 98%;
+}
+.div-cl {
+  display: flex;
+  justify-content: center;
 }
 table.size {
   font-size: 300%;
   /*width: 630px;
   height: 540px;*/
-  width: 80%;
-  height: 80%;
+  width: 84%;
+  height: 78%;
   table-layout: fixed;
   margin: auto;
 }
 .td-all {
-  width: 90px;
+  width: 12%;
+  /*width: 100%;*/
 }
 .tr-all {
-  height: 90px;
+  height: 13%;
+  /*height: 100%;*/
 }
 table {
   border-collapse: collapse;
