@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+table.size {
+  font-size: 300%;
+  /*width: 630px;
+  height: 540px;*/
+  width: 80%;
+  height: 80%;
+  table-layout: fixed;
+  margin: auto;
+}
+.td-all {
+  width: 90px;
+}
+.tr-all {
+  height: 90px;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+th {
+  color: #FF9800;/*文字色*/
+  background: #fff5e5;/*背景色*/	
+}
+table th, table td {
+  border: solid 1px black;
+  /*実線 1px 黒*/
+}
